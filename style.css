@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+
+.header li{
+    list-style-type: none;
+}
+.header li a{
+    text-decoration: none;
+}
+
+
+.header{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18px;
+}
+
+.header-nav li{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+
+.header-title{
+    font-size: 26px;
+    color: #37447E;
+    font-weight: bold;
+}
+
+.header-botton button{
+    background-color:  #111B47;
+    padding: 0 40px;
+    color: white;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hero{
+    width: 100%;
+    height: 1057px;
+}
+    
+#hero #text1{
+    width: 539.37px;
+    height: 421px;
+    position: relative;
+    top: 303px;
+    left: 163.12px;  
+    z-index: 2;
+}
+  
+    
+#text1>h1{
+    color: #091133; 
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+#text1>p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #505F98;
+
+}
+
+
+#text1 li{
+    width: 189.13px;
+    height: 36px;
+    left: 163.12px;
+display: inline-block;
+text-align: center;
+line-height: 36px;
+box-sizing: border-box;
+font-size: 16px;
+margin-top: 80px;
+}
+
+#text1 li:first-child{
+background: #111B47;
+color: white;
+}
+
+#text1 li:last-child{
+font-weight: 500;
+    color:  #091133;
+    border: 2px solid;
+margin-left: 20px;
+}
+
+
+#designer1 img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+#undraw{
+    width: 100%;
+    height: 742px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid green;
+}
+
+
+#undraw #text2{
+    width: 540px;
+    height: 925px;
+    position: relative;
+    top: 100px;
+}
+
+#undraw #text2 h1 {
+height:48px;
+font-size: 36px;
+font-weight: 500;
+line-height: 48px;
+text-align: left;
+color: #091133;
+}
+
+#undraw #text2>p{
+height: 140px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color: #6F7CB2;
+position: absolute;
+top: 50px;
+}
+
+#undraw #text2 li{
+display: inline-block;
+width: 255px;
+height: 138px;
+margin-top: 250px;
+margin-right: 12px;
+}
+
+#undraw #text2 li h2{
+    color: #091133;
+    font-style: bold;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+}
+
+
+
+#undraw #text2 li p{
+    color: #5D6970;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.icon{
+    width: 80%;
+    height: auto;
+}
+
+#designer2 img{
+width: 100%;
+height: 524.31px;
+margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cta{
+    width: 100%;
+    height: 546px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ #designer3,#text3{
+    width: 35%; 
+}
+
+#designer3 img{
+max-width: 100%;
+height: auto;
+margin:0 auto;
+}
+
+#cta #text3{
+padding: 20px;
+}
+
+#cta #text3 h1{
+font-size: 36px;
+font-weight: 500;
+line-height: 48px;
+color:  #091133;
+}
+
+
+#cta #text3 p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: #6F7CB2;
+}
+
+#cta #text3 button{
+width: 150px;
+height: 32px;
+background-color: #111B47;
+color: white;
+border: none;
+margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pricing{
+    width: 100%;
+    height:auto;
+    text-align: center; 
+    background-image: url(Rectangle.png);
+    background-size: cover;
+    padding-top: 100px; 
+}
+
+#pricing h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color:  #091133;
+    margin-bottom: 20px;
+    }
+
+    
+#pricing .p1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #6F7CB2;  
+    margin-bottom: 30px;
+    max-width: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    #pricing .p2 {
+        font-size: 48px;
+        font-weight: 700;
+        color: #222F65;
+        margin-bottom: 10px;
+    }
+    
+    #pricing .p3 {
+        font-size: 18px;
+        font-weight: 400;
+        color:  #37447E;
+        margin-bottom: 20px;
+    }
+    
+    #pricing .p4 {
+        font-size: 14px;
+        font-weight: 300;
+        color:  #5D6970;
+        margin-bottom: 30px;
+    }
+    
+    #pricing button {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        background-color: #111B47;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 5px;
+    }
+
+.h1, .p2, .p4 {
+    margin-top: 100px;
+}
+
+
+#footer img{
+    width: 100%;
+    height: auto;
+    margin-top:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
